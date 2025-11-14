@@ -10,11 +10,12 @@ Create a Timer that Tracks your elapsed time on a task.
 
 
 ### Project Steps
-1. Created Two Classes, Main & StopWatchDisplay
-2. Created a JFrame variable
-3. Created a display method where the Frame attributed are instantiated.
-4. Assigned the JFrame Variable to a new JFrame along with Frame Title
-5. Set the size, its default closing outcome, and making it visible
-6. Created a constructor and called the display method
-7. In the Main Class, we Instantiated A StopWatchDisplay Constructor to call display
+
+## Application Window
+1.	Created two classes: Main and StopWatchDisplay.
+2.	Inside StopWatchDisplay, declared a JFrame instance variable.
+3.	Inside the display() method, set up the frame’s attributes (size, closing behavior, visibility, etc.).
+4.	In the constructor of StopWatchDisplay, you call the display() method so the window is created as soon as the object is constructed.
+5.	In the Main class, within main method create a new StopWatchDisplay object 
+—the constructor runs, which calls display(), which shows the frame.
     
